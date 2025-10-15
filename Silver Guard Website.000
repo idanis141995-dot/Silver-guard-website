@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SilverGuard - Protecting Seniors in a Digital World</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* All CSS styles from the previous code */
+        :root {
+            --primary: #00A676;
+            --primary-dark: #00885a;
+            --primary-light: #e6f6ea;
+            --background: #ffffff;
+            --background-alt: #f4f9f6;
+            --text-dark: #0f172a;
+            --text-muted: #6b7280;
+            --white: #ffffff;
+            --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: var(--background);
+            overflow-x: hidden;
+        }
+
+        /* ... (rest of the CSS styles from previous code) ... */
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="#home" class="logo">
+                <div class="logo-icon">SG</div>
+                SilverGuard
+            </a>
+            
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+                <a href="#contact" class="btn btn-primary nav-cta">Get Help Now</a>
+            </nav>
+            
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+            <a href="#contact" class="btn btn-primary mobile-cta">Get Help Now</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Protecting Seniors in a Digital World</h1>
+                <p>We help older adults stay safe online, avoid scams, and feel confident using technology</p>
+                
+                <div class="hero-features">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Scam Prevention</h3>
+                            <p>Learn to identify and avoid online scams</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                        <div>
+                            <h3>Personal Tech Setup</h3>
+                            <p>Get your devices set up safely and correctly</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div>
+                            <h3>Digital Banking Guidance</h3>
+                            <p>Bank online with confidence and security</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <a href="#contact" class="btn btn-primary">Get Protected Today</a>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="device-mockup">
+                    <div class="device-screen">
+                        <div class="screen-content">
+                            <h3>SilverGuard Protection</h3>
+                            <p>Your digital safety is our priority</p>
+                            <div class="status-indicator">
+                                <i class="fas fa-check-circle" style="color: #00A676; font-size: 3rem; margin: 1rem 0;"></i>
+                                <p>All Systems Secure</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-sidebar">
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">"SilverGuard gave me the confidence to use my computer without worrying about scams. Their team is patient and knowledgeable."</p>
+                        <p class="testimonial-author">- Margaret, 78</p>
+                    </div>
+                    
+                    <div class="emergency-card">
+                        <h3>Need Immediate Help?</h3>
+                        <p>If you suspect you've encountered a scam</p>
+                        <div class="emergency-phone">(204) 384-6643</div>
+                        <p>Available 24/7 for emergencies</p>
+                    </div>
+                    
+                    <div class="scam-alerts">
+                        <h3>Latest Scam Alerts</h3>
+                        <div class="alert-item">Fake tech support calls increasing</div>
+                        <div class="alert-item">New "grandparent" email scam</div>
+                        <div class="alert-item">Fake Medicare renewal requests</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            
+            <div class="services-grid">
+                <div class="service-card card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Scam Protection</h3>
+                    <p>Comprehensive training to recognize and avoid online scams, phishing attempts, and fraudulent activities.</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Phishing email identification</li>
+                        <li><i class="fas fa-check"></i> Suspicious link analysis</li>
+                        <li><i class="fas fa-check"></i> Fraud-alert hotline access</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3>Personal Tech Setup</h3>
+                    <p>Get your devices properly configured with security in mind from the start.</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Device setup & optimization</li>
+                        <li><i class="fas fa-check"></i> Password manager installation</li>
+                        <li><i class="fas fa-check"></i> Safe online shopping setup</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card card">
+                    <div class="service-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3>Digital Banking Guidance</h3>
+                    <p>Learn to bank online safely with step-by-step guidance and security best practices.</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Step-by-step banking help</li>
+                        <li><i class="fas fa-check"></i> Two-factor authentication setup</li>
+                        <li><i class="fas fa-check"></i> Transaction monitoring guidance</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="pricing-section">
+                <h2 class="pricing-title">Simple, Transparent Pricing</h2>
+                
+                <div class="pricing-grid">
+                    <div class="pricing-card card">
+                        <div class="pricing-header">
+                            <h3 class="pricing-name">Basic</h3>
+                            <div class="pricing-price">$100<span class="pricing-period">/month</span></div>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> One-time security setup</li>
+                                <li><i class="fas fa-check"></i> Basic scam prevention training</li>
+                                <li><i class="fas fa-check"></i> Email support</li>
+                                <li><i class="fas fa-check"></i> Monthly security newsletter</li>
+                            </ul>
+                            <button class="btn btn-outline pricing-select" data-plan="Basic">Select Plan</button>
+                        </div>
+                    </div>
+                    
+                    <div class="pricing-card card popular">
+                        <div class="popular-badge">Most Popular</div>
+                        <div class="pricing-header">
+                            <h3 class="pricing-name">Plus</h3>
+                            <div class="pricing-price">$120<span class="pricing-period">/month</span></div>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Everything in Basic</li>
+                                <li><i class="fas fa-check"></i> Monthly security check</li>
+                                <li><i class="fas fa-check"></i> 2 consultation sessions monthly</li>
+                                <li><i class="fas fa-check"></i> Priority email & phone support</li>
+                                <li><i class="fas fa-check"></i> Scam alert notifications</li>
+                            </ul>
+                            <button class="btn btn-primary pricing-select" data-plan="Plus">Select Plan</button>
+                        </div>
+                    </div>
+                    
+                    <div class="pricing-card card">
+                        <div class="pricing-header">
+                            <h3 class="pricing-name">Premium</h3>
+                            <div class="pricing-price">$150<span class="pricing-period">/month</span></div>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Everything in Plus</li>
+                                <li><i class="fas fa-check"></i> Full device protection</li>
+                                <li><i class="fas fa-check"></i> Unlimited consultation sessions</li>
+                                <li><i class="fas fa-check"></i> On-call emergency support</li>
+                                <li><i class="fas fa-check"></i> Family member dashboard access</li>
+                            </ul>
+                            <button class="btn btn-outline pricing-select" data-plan="Premium">Select Plan</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="trust-indicators">
+                    <div class="trust-item">
+                        <i class="fas fa-user-check"></i>
+                        <span>Background-checked helpers</span>
+                    </div>
+                    <div class="trust-item">
+                        <i class="fas fa-comments"></i>
+                        <span>Simple, clear language</span>
+                    </div>
+                    <div class="trust-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>Flexible service options</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            
+            <div class="contact-container">
+                <div class="contact-form-container">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" class="form-control">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Interest</label>
+                            <select id="service" class="form-control form-select" required>
+                                <option value="">Select a service</option>
+                                <option value="Scam Protection">Scam Protection</option>
+                                <option value="Personal Tech Setup">Personal Tech Setup</option>
+                                <option value="Digital Banking Guidance">Digital Banking Guidance</option>
+                                <option value="Basic Plan">Basic Plan ($100/month)</option>
+                                <option value="Plus Plan">Plus Plan ($120/month)</option>
+                                <option value="Premium Plan">Premium Plan ($150/month)</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">How Can We Help You?</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+                        
+                        <div class="success-message" id="successMessage">
+                            <i class="fas fa-check-circle"></i>
+                            <p>Thank you for your message! We'll get back to you within 24 hours.</p>
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="contact-sidebar">
+                    <div class="contact-methods card">
+                        <h3>Other Ways to Reach Us</h3>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4>Call Us</h4>
+                                <p>(204) 384-6643</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email Us</h4>
+                                <p>help@silverguard.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Visit Our Office</h4>
+                                <p>123 Safety Street, Digital City</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="safety-tips card">
+                        <h3>Quick Safety Tips</h3>
+                        
+                        <div class="tip-item">Never share passwords or banking details over email</div>
+                        <div class="tip-item">Verify unexpected requests by calling the company directly</div>
+                        <div class="tip-item">Look for HTTPS in website addresses before entering information</div>
+                        <div class="tip-item">Be cautious of urgent or threatening messages</div>
+                        <div class="tip-item">When in doubt, call us for verification</div>
+                    </div>
+                    
+                    <div class="family-plan card">
+                        <h3>Family Plan Available</h3>
+                        <p>Set up protection for your parents or grandparents with our family dashboard.</p>
+                        <p>Get alerts about potential risks and manage their security settings.</p>
+                        <a href="#contact" class="btn btn-outline" style="color: white; border-color: white; margin-top: 1rem;">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <a href="#home" class="footer-logo">
+                    <div class="logo-icon">SG</div>
+                    SilverGuard
+                </a>
+                
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+                
+                <p class="copyright">© 2023 SilverGuard. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // DOM Elements
+        const header = document.getElementById('header');
+        const hamburger = document.getElementById('hamburger');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const contactForm = document.getElementById('contactForm');
+        const successMessage = document.getElementById('successMessage');
+        const pricingButtons = document.querySelectorAll('.pricing-select');
+        const serviceSelect = document.getElementById('service');
+
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile menu toggle
+        hamburger.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+            hamburger.innerHTML = mobileMenu.classList.contains('active') 
+                ? '<i class="fas fa-times"></i>' 
+                : '<i class="fas fa-bars"></i>';
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+                hamburger.innerHTML = '<i class="fas fa-bars"></i>';
+            });
+        });
+
+        // Form submission
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            // In a real application, you would send the form data to a server here
+            // For demonstration, we'll just show the success message
+            successMessage.style.display = 'block';
+            contactForm.reset();
+            
+            // Scroll to show the success message
+            successMessage.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            
+            // Hide success message after 5 seconds
+            setTimeout(() => {
+                successMessage.style.display = 'none';
+            }, 5000);
+        });
+
+        // Pricing plan selection
+        pricingButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const plan = button.getAttribute('data-plan');
+                serviceSelect.value = `${plan} Plan`;
+                
+                // Scroll to contact form
+                document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', (e) => {
+            // Only trigger if not in an input field
+            if (e.target.tagName !== 'INPUT' && e.target.tagName !== 'TEXTAREA') {
+                switch(e.key) {
+                    case '1':
+                        document.getElementById('home').scrollIntoView({ behavior: 'smooth' });
+                        break;
+                    case '2':
+                        document.getElementById('services').scrollIntoView({ behavior: 'smooth' });
+                        break;
+                    case '3':
+                        document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+                        break;
+                }
+            }
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
